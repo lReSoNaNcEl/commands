@@ -32,7 +32,7 @@ git mv <fileFrom> <fileTo> - перемещение файла
 
 git remote - просмотр удаленных репозиториев
 git remote -v - просмотр адресов репозиториев
-get remote add <repositoryName> <url>
+get remote add <repositoryName> <url> - подключение к репозиторию
 
 git fetch <repositoryName> - получение изменений из репозитория
 

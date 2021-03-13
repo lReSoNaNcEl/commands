@@ -1,0 +1,15 @@
+packages: [git, nodejs]
+
+apt (Advanced Package Tool) - пакетный менеджер Linux
+
+commands:
+
+sudo apt update - обновление базы данных доступных пакетов
+sudo apt upgrade - обновление установленных пакетов
+sudo apt full-upgrade - удаление всех установленных пакетов и установка их заного
+
+sudo apt update && sudo apt upgrade -y - комбинация команд для обновления системы
+
+sudo apt install <package> - загрузка пакета
+sudo apt install -y <package> - загрузка пакета без подтверждения на установку
+sudo apt install -no-upgrade <package> - установка пакета без его обновления

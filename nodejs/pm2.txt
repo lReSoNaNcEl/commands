@@ -1,0 +1,20 @@
+pm2 (Process Manager)
+
+npm i --global pm2
+
+pm2 startup - автоматический запуск nodejs процессов после перезапуска системы
+
+pm2 start <path> - запуск приложения в фоновом режиме
+pm2 start <path> -max - запуск приложения в режиме кластеризации (нагрузка от запросов на сервер равномерно распределяется на количество ядер процессора)
+
+pm2 restart <APP_NAME>
+pm2 reload <APP_NAME>
+pm2 stop <APP_NAME>
+pm2 delete <APP_NAME>
+
+pm2 [list|ls|status]
+
+pm2 logs
+pm2 logs --lines 200
+
+pm2 monit

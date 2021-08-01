@@ -1,0 +1,15 @@
+docker info
+docker images - список установленнных образов
+docker pull <IMAGE> - стягивание образа на пк с удаленного репозитория
+docker ps - список запущенных контейнеров
+docker ps -a - полный список всех запущенных контейнеров
+docker run <IMAGE> - запуск экземпляра образа
+docker run -it <IMAGE> - запуск контейнера в интерактивном режиме (консоль подключается к установленному образу)
+docker start <CONTAINER_ID> - запуск созданного контейнера (узнать ID можно через docker ps)
+docker stop <CONTAINER_ID> - остановить контейнер
+docker rm <CONTAINER_ID> - удалить контейнер
+docker image rm <IMAGE> - удаление образа
+exit - выход из контейнера
+docker build . --tag <CONTAINER_NAME> - сборка приложения в образ на основе DockerFile в текущей директории
+
+docker run -it ubuntu:21.04 /bin/bash
